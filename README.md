@@ -7,9 +7,7 @@ Get the index of the record with missing values and the number of missing values
 ```
 nupoi <FILE>
 <FILE>
-  Path to image file
-  Use all image file if FILE is directory.
-
+  Path to data file
 ```
 # License
-The source code is licensed MIT. The website content is licensed CC BY 4.0,see LICENSE.
+
