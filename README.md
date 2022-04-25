@@ -1,5 +1,5 @@
 # nupoi
-![free_box](https://user-images.githubusercontent.com/90143019/165056876-74036d4f-1d14-42a4-b1b3-bc8c5682e66f.png)
+<img src="https://user-images.githubusercontent.com/90143019/165062158-0bee35a4-c7b8-4797-8568-5b3570137c4f.png" width="320px">
 
 Get the index of the record with missing values and the number of missing values as output
 
