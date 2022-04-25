@@ -13,5 +13,5 @@ nupoi <FILE>
 <FILE>
   Path to data file
 ```
-# License
+
 
