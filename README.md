@@ -15,5 +15,6 @@ nupoi <OPTION>　<FILE>
     -p, -point   Prints records with null values and the number of nulls
     -h, -help    Prints usage message.
 ```
+##Sample Output
 
 
