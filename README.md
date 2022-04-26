@@ -4,12 +4,11 @@
 Check for null in the dataset
 
 # Description
-## Function
 Outputs records with null values and the number of nulls in the dataset file
 
 # Useage
 ```
-nupoi <OPTION>　<FILE>
+nupoi [OPTION]　<FILE>
 <FILE>
   Path to data file
   <OPTION>
