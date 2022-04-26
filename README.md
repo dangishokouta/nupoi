@@ -16,5 +16,12 @@ nupoi <OPTION>　<FILE>
     -h, -help    Prints usage message.
 ```
 ## Sample Output
-
+```
+nupoi -p　data.csv
+index:1,null:2
+index:4,null:1
+・
+・
+・
+```
 
