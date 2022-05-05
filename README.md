@@ -8,12 +8,13 @@ Outputs records with null values and the number of nulls in the dataset file
 
 # Useage
 ```
-nupoi [OPTION]　<FILE>
-<FILE>
+nupoi [OPTION]　<Path>
+<Path>
   Path to data file
 [OPTION]
-    -p, -point   Prints records with null values and the number of nulls
-    -h, -help    Prints usage message.
+    -h, --help             Print help information
+    -p, --point <POINT>    check for null
+    -V, --version          Print version information
 ```
 ## Sample Output
 ```
