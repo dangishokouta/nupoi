@@ -1,0 +1,4 @@
+baseURL = 'https://dangishokouta.github.io/nupoi/'
+languageCode = 'en-us'
+title = 'Nupoi'
+theme = "ananke"
