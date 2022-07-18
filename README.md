@@ -12,20 +12,23 @@ Check for null in the dataset
 Outputs records with null values and the number of nulls in the dataset file
 
 # Useage
+USAGE:
+    nupoi [OPTION]　<File>
+ARGS:
+  <File> Path to data file
+OPTIONS:
+    -h, --help                       Print help information
+    -V, --version                    Print version information
 ```
-nupoi [OPTION]　<Path>
-<Path>
-  Path to data file
-[OPTION]
-    -h, --help             Print help information
-    -p, --point <POINT>    check for null
-    -V, --version          Print version information
-```
-## Sample Output
-```
-nupoi -p　data.csv
-index:1,null:2
-index:4,null:1
-:
-:
+### Sample Output
+```sh
+$ btmeister . ~/go/src/github.com/tamada/rrh
+cargo       ./Cargo.toml
+make        /Users/tamada/go/src/github.com/tamada/rrh/Makefile
+$ nupoi test.csv
+  index: 2  null: 1
+  index: 4  null: 1
+  index: 6  null: 2
+  index: 7  null: 3
+
 ```
