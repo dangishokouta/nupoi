@@ -5,7 +5,7 @@ title: ":runner: Usage"
 ## CLI
 
 ```sh
-btmeister 0.1.2
+nupoi 0.1.2
 Kota Dangisho
 Check for null in the dataset
 USAGE:
@@ -18,9 +18,6 @@ OPTIONS:
 ```
 ### Sample Output
 ```sh
-$ btmeister . ~/go/src/github.com/tamada/rrh
-cargo       ./Cargo.toml
-make        /Users/tamada/go/src/github.com/tamada/rrh/Makefile
 $ nupoi test.csv
   index: 2  null: 1
   index: 4  null: 1
