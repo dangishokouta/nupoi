@@ -91,7 +91,7 @@
     <main class="pb7" role="main">
       
  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    <p><a href="https://github.com/dangishokouta/nupoi/actions/workflows/build.yml"><img src="https://github.com/dangishokouta/nupoi/actions/workflows/build.yml/badge.svg" alt="build"></a>
+    <p><a href="https://github.com/dangishokouta/nupoi/actions/workflows/build.yaml"><img src="https://github.com/dangishokouta/nupoi/actions/workflows/build.yaml/badge.svg" alt="build_products"></a>
 <a href="https://coveralls.io/github/dangishokouta/nupoi?branch=main"><img src="https://coveralls.io/repos/github/dangishokouta/nupoi/badge.svg?branch=main" alt="Coverage Status"></a>
 <a href="https://github.com/dangishokouta/nupoi/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License"></a>
 <a href="https://rust-reportcard.xuri.me/report/github.com/dangishokouta/nupoi"><img src="https://rust-reportcard.xuri.me/badge/github.com/dangishokouta/nupoi" alt="Rust Report Card"></a></p>
@@ -99,27 +99,29 @@
 <h1 id="description">Description</h1>
 <p>データセットファイル中のNull値を持つレコードのNull値の数を出力する</p>
 <h1 id="useage">Useage</h1>
-<pre tabindex="0"><code>nupoi [OPTION]　&lt;Path&gt;
-&lt;Path&gt;
-  Path to data file
-[OPTION]
-    -h, --help             Print help information
-    -p, --point &lt;POINT&gt;    check for null
-    -V, --version          Print version information
-</code></pre><h2 id="sample-output">Sample Output</h2>
-<pre tabindex="0"><code>nupoi -p　data.csv
-index:1,null:2
-index:4,null:1
-:
-:
-</code></pre><ul>
-<li><a href="./">:house: Home</a>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>USAGE:
+</span></span><span style="display:flex;"><span>    nupoi <span style="color:#f92672">[</span>OPTION<span style="color:#f92672">]</span>　&lt;File&gt;
+</span></span><span style="display:flex;"><span>ARGS:
+</span></span><span style="display:flex;"><span>  &lt;File&gt; Path to data file
+</span></span><span style="display:flex;"><span>OPTIONS:
+</span></span><span style="display:flex;"><span>    -h, --help                       Print help information
+</span></span><span style="display:flex;"><span>    -V, --version                    Print version information
+</span></span></code></pre></div><h3 id="sample-output">Sample Output</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ nupoi test.csv
+</span></span><span style="display:flex;"><span>  index: <span style="color:#ae81ff">2</span>  null: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  index: <span style="color:#ae81ff">4</span>  null: <span style="color:#ae81ff">1</span>
+</span></span><span style="display:flex;"><span>  index: <span style="color:#ae81ff">6</span>  null: <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>  index: <span style="color:#ae81ff">7</span>  null: <span style="color:#ae81ff">3</span>
+</span></span><span style="display:flex;"><span>      
+</span></span></code></pre></div><ul>
+<li><a href="./">: Home</a>
 <ul>
-<li><a href="#-desctiption">:speaking_head: Description</a></li>
+<li><a href="#-desctiption">: Description</a></li>
 </ul>
 </li>
-<li><a href="install">:anchor: Install</a></li>
-<li><a href="usage">:runner: Usage</a></li>
+<li><a href="install">: Install</a></li>
+<li><a href="usage">: Usage</a></li>
+<li><a href="about">: About</a></li>
 </ul>
 
   </article>
