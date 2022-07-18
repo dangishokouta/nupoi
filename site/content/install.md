@@ -7,7 +7,7 @@ title: ":anchor: Install"
 `nupoi` supports installation via [Homebrew](https://brew.sh/).
 
 ```sh
-$ brew tap dangisho/nupoi
+$ brew tap dangishokouta/nupoi
 $ brew install nupoi
 ```
 
