@@ -12,8 +12,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dangishokouta.github.io/nupoi/install/</guid>
-      <description>🍺 Homebrew nupoi supports installation via Homebrew.
-$ brew tap dangisho/nupoi $ brew install nupoi 💪 Install yourself Clone the project from GitHub and compile it like follows.
+      <description>:beer: Homebrew nupoi supports installation via Homebrew.
+$ brew tap dangisho/nupoi $ brew install nupoi :muscle: Install yourself Clone the project from GitHub and compile it like follows.
 $ git clone https://github.com/dangishokouta/nupoi.git $ cd nupoi $ cargo build --release Then, cargo build the resultant nupoi executable on target/release directory.</description>
     </item>
     
@@ -23,7 +23,7 @@ $ git clone https://github.com/dangishokouta/nupoi.git $ cd nupoi $ cargo build 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dangishokouta.github.io/nupoi/usage/</guid>
-      <description>CLI nupoi 0.1.2 Kota Dangisho Check for null in the dataset USAGE: nupoi [OPTION]　&amp;lt;File&amp;gt; ARGS: &amp;lt;File&amp;gt; Path to data file OPTIONS: -h, --help Print help information -V, --version Print version information Sample Output $ nupoi test.csv index: 2 null: 1 index: 4 null: 1 index: 6 null: 2 index: 7 null: 3 🐳 Docker docker run --rm -it -v $PWD:/home/nupoi ghcr.io/dangishokouta/nupoi:latest The working directory in the docker container is /home/nupoi.</description>
+      <description>CLI nupoi 0.1.2 Kota Dangisho Check for null in the dataset USAGE: nupoi [OPTION]　&amp;lt;File&amp;gt; ARGS: &amp;lt;File&amp;gt; Path to data file OPTIONS: -h, --help Print help information -V, --version Print version information Sample Output $ nupoi test.csv index: 2 null: 1 index: 4 null: 1 index: 6 null: 2 index: 7 null: 3 :whale: Docker docker run --rm -it -v $PWD:/home/nupoi ghcr.io/dangishokouta/nupoi:latest The working directory in the docker container is /home/nupoi.</description>
     </item>
     
     <item>
@@ -32,10 +32,10 @@ $ git clone https://github.com/dangishokouta/nupoi.git $ cd nupoi $ cargo build 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dangishokouta.github.io/nupoi/about/</guid>
-      <description>📜 License Permissions Commercial use Modification Distribution Private use Limitations Liability Warranty Logo The logo of btmeister is as follows.
+      <description>:scroll: License Permissions Commercial use Modification Distribution Private use Limitations Liability Warranty Logo The logo of btmeister is as follows.
 This image is refered from freesvg.org by OpenClipart.
 Project Name btmeister nupoi is Null Pointer from its features.
-👨‍💼 Developers 👩‍💼 Kota Dangisho </description>
+:man_office_worker: Developers :woman_office_worker: Kota Dangisho </description>
     </item>
     
   </channel>
