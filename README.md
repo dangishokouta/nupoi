@@ -12,6 +12,7 @@ Check for null in the dataset
 Outputs records with null values and the number of nulls in the dataset file
 
 # Useage
+```sh
 USAGE:
     nupoi [OPTION]　<File>
 ARGS:
@@ -27,4 +28,5 @@ $ nupoi test.csv
   index: 4  null: 1
   index: 6  null: 2
   index: 7  null: 3
-
+      
+```
