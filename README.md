@@ -22,13 +22,9 @@ OPTIONS:
 ```
 ### Sample Output
 ```sh
-$ btmeister . ~/go/src/github.com/tamada/rrh
-cargo       ./Cargo.toml
-make        /Users/tamada/go/src/github.com/tamada/rrh/Makefile
 $ nupoi test.csv
   index: 2  null: 1
   index: 4  null: 1
   index: 6  null: 2
   index: 7  null: 3
 
-```
