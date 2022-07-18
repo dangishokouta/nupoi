@@ -3,6 +3,7 @@
 [![build_products](https://github.com/dangishokouta/nupoi/actions/workflows/build.yaml/badge.svg)](https://github.com/dangishokouta/nupoi/actions/workflows/build.yaml)
 [![Coverage Status](https://coveralls.io/repos/github/dangishokouta/nupoi/badge.svg)](https://coveralls.io/github/dangishokouta/nupoi)
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/dangishokouta/nupoi)](https://rust-reportcard.xuri.me/report/github.com/dangishokouta/nupoi)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/dangishokouta/nupoi/blob/main/LICENSE)
 [![DOI](https://zenodo.org/badge/483072806.svg)](https://zenodo.org/badge/latestdoi/483072806)
 
 
