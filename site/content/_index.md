@@ -8,7 +8,7 @@ cascade:
   featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 ---
 
-[![build](https://github.com/dangishokouta/nupoi/actions/workflows/build.yml/badge.svg)](https://github.com/dangishokouta/nupoi/actions/workflows/build.yml)
+[![build_products](https://github.com/dangishokouta/nupoi/actions/workflows/build.yaml/badge.svg)](https://github.com/dangishokouta/nupoi/actions/workflows/build.yaml)
 [![Coverage Status](https://coveralls.io/repos/github/dangishokouta/nupoi/badge.svg?branch=main)](https://coveralls.io/github/dangishokouta/nupoi?branch=main)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/dangishokouta/nupoi/blob/main/LICENSE)
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/dangishokouta/nupoi)](https://rust-reportcard.xuri.me/report/github.com/dangishokouta/nupoi)
@@ -19,27 +19,28 @@ cascade:
 # Description
 データセットファイル中のNull値を持つレコードのNull値の数を出力する
 # Useage
+```sh
+USAGE:
+    nupoi [OPTION]　<File>
+ARGS:
+  <File> Path to data file
+OPTIONS:
+    -h, --help                       Print help information
+    -V, --version                    Print version information
 ```
-nupoi [OPTION]　<Path>
-<Path>
-  Path to data file
-[OPTION]
-    -h, --help             Print help information
-    -p, --point <POINT>    check for null
-    -V, --version          Print version information
-```
-## Sample Output
-```
-nupoi -p　data.csv
-index:1,null:2
-index:4,null:1
-:
-:
+### Sample Output
+```sh
+$ nupoi test.csv
+  index: 2  null: 1
+  index: 4  null: 1
+  index: 6  null: 2
+  index: 7  null: 3
+      
 ```
 
 
-* [:house: Home](./)
-  * [:speaking_head: Description](#-desctiption)
-* [:anchor: Install](install)
-* [:runner: Usage](usage)
-* [:smile: About](about)
+* [: Home](./)
+  * [: Description](#-desctiption)
+* [: Install](install)
+* [: Usage](usage)
+* [: About](about)

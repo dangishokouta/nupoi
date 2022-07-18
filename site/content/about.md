@@ -1,10 +1,10 @@
 ---
-title: ":smile: About"
+title: ": About"
 ---
 
 ## :scroll: License
 
-[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/tamada/btmeister/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/dangishokouta/nupoi/blob/main/LICENSE)
 
 * Permissions
     * Commercial use
@@ -23,10 +23,14 @@ The logo of btmeister is as follows.
 
 This image is refered from [freesvg.org](https://freesvg.org/worker-with-tool) by [OpenClipart](https://freesvg.org/by/OpenClipart).
 
-## Project Name `btmeister`
+## Project Name `nupoi`
 
 `nupoi` is `Null Pointer` from its features.
 
-## :man_office_worker: Developers :woman_office_worker:
 
-* [Kota Dangisho]([@tamada](https://github.com/dangishokouta))
+* [Kota Dangisho]([@dangishokouta](https://github.com/dangishokouta))
+
+* [: Home](../)
+* [: Install](../install)
+* [: Usage](../usage)
+* [: About](./)

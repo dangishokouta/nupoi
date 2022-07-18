@@ -1,5 +1,5 @@
 ---
-title: ":anchor: Install"
+title: ": Install"
 ---
 
 ### :beer: Homebrew
@@ -7,7 +7,7 @@ title: ":anchor: Install"
 `nupoi` supports installation via [Homebrew](https://brew.sh/).
 
 ```sh
-$ brew tap dangishokouta/nupoi
+$ brew tap dangisho/nupoi
 $ brew install nupoi
 ```
 
@@ -22,3 +22,8 @@ $ cargo build --release
 ```
 
 Then, `cargo` build the resultant `nupoi` executable on `target/release` directory.
+
+* [: Home](../)
+* [: Install](./)
+* [: Usage](../usage)
+* [: About](../about)

@@ -1,5 +1,5 @@
 ---
-title: ":runner: Usage"
+title: ": Usage"
 ---
 
 ## CLI
@@ -33,3 +33,8 @@ The working directory in the docker container is `/home/nupoi`.
 The target project should be on the directory with `-v` flag of docker.
 ### Available versions
 * `0.1.2`, `latest`
+
+* [: Home](../)
+* [: Install](../nstall)
+* [: Usage](./)
+* [: About](../about)
